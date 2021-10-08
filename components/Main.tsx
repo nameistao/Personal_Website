@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledMain = styled.main`
   width: 100vw;
   height: 70vh;
-  background: green;
+  background: #264653;
 `;
 
 interface IProps {

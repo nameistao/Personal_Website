@@ -6,7 +6,7 @@ import Email from "icons/Email";
 const StyledFooter = styled.footer`
   width: 100vw;
   height: 15vh;
-  background: purple;
+  background: #264653;
   display: flex;
   justify-content: center;
 `;
@@ -54,7 +54,7 @@ const Footer = () => {
       </StyledPageLink>
       <StyledPageLink>
         <StyledAnchor
-          href="taoluo@usc.edu"
+          href="mailto:taoluo@usc.edu"
           rel="noopener noreferrer"
           target="_blank"
         >
