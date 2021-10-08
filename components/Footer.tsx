@@ -13,7 +13,7 @@ const StyledFooter = styled.footer`
 
 const StyledPageLink = styled.div`
   height: 50%;
-  width: 15vw;
+  width: 10vw;
   margin-top: auto;
   margin-bottom: auto;
   text-align: center;
@@ -23,22 +23,43 @@ const StyledPageLink = styled.div`
   display: flex;
   color: white;
   font-size: 1.5rem;
-  :hover {
-    cursor: pointer;
-  }
+`;
+
+const StyledAnchor = styled.a`
+  height: auto;
+  width: 50%;
+  margin: auto;
 `;
 
 const Footer = () => {
   return (
     <StyledFooter>
       <StyledPageLink>
-        <LinkedIn />
+        <StyledAnchor
+          href="https://www.linkedin.com/in/nameistao/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <LinkedIn />
+        </StyledAnchor>
       </StyledPageLink>
       <StyledPageLink>
-        <GitHub />
+        <StyledAnchor
+          href="https://github.com/nameistao"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <GitHub />
+        </StyledAnchor>
       </StyledPageLink>
       <StyledPageLink>
-        <Email />
+        <StyledAnchor
+          href="taoluo@usc.edu"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Email />
+        </StyledAnchor>
       </StyledPageLink>
     </StyledFooter>
   );
