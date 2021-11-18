@@ -21,7 +21,6 @@ const StyledPageLink = styled.div`
   justify-content: center;
   flex-direction: column;
   display: flex;
-  color: white;
   font-size: 1.5rem;
 `;
 
@@ -40,7 +39,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <LinkedIn color="#black" />
+          <LinkedIn color="black" />
         </StyledAnchor>
       </StyledPageLink>
       <StyledPageLink>

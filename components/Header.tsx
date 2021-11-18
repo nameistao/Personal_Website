@@ -11,7 +11,7 @@ const StyledHeader = styled.header`
 
 const StyledPageLink = styled.div`
   height: 50%;
-  width: 15vw;
+  width: 18vw;
   margin-top: auto;
   margin-bottom: auto;
   text-align: center;
@@ -27,7 +27,7 @@ const StyledPageLink = styled.div`
 
 const UnderLinedPageLink = styled.div`
   height: 50%;
-  width: 15vw;
+  width: 18vw;
   margin-top: auto;
   margin-bottom: auto;
   text-align: center;

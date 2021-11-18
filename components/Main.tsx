@@ -7,6 +7,8 @@ const StyledMain = styled.main`
   width: 100vw;
   height: 65vh;
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
 `;
 
 interface IProps {
