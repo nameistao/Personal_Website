@@ -49,7 +49,7 @@ interface IProps {
 
 const Header = ({ curPage, setCurPage }: IProps) => {
   const aboutClickHandler = () => setCurPage("about");
-  const workClickHandler = () => setCurPage("work");
+  const skillsClickHandler = () => setCurPage("skills");
   const projectsClickHandler = () => setCurPage("projects");
 
   return (
@@ -59,10 +59,10 @@ const Header = ({ curPage, setCurPage }: IProps) => {
       ) : (
         <StyledPageLink onClick={aboutClickHandler}>About</StyledPageLink>
       )}
-      {curPage === "work" ? (
+      {curPage === "skills" ? (
         <UnderLinedPageLink>Work</UnderLinedPageLink>
       ) : (
-        <StyledPageLink onClick={workClickHandler}>Work</StyledPageLink>
+        <StyledPageLink onClick={skillsClickHandler}>Skills</StyledPageLink>
       )}
       {curPage === "projects" ? (
         <UnderLinedPageLink>Projects</UnderLinedPageLink>
