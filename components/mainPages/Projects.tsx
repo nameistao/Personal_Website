@@ -13,8 +13,20 @@ const StyledAbout = styled.div`
 const Projects = () => {
   return (
     <StyledAbout>
-      <p>restaurant recommender</p>
-      <p>pomodororo</p>
+      <a
+        href="https://restaurant-recommender-v3.vercel.app/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p>restaurant recommender</p>
+      </a>
+      <a
+        href="http://www.pomodororo.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p>pomodororo</p>
+      </a>
     </StyledAbout>
   );
 };

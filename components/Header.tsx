@@ -60,7 +60,7 @@ const Header = ({ curPage, setCurPage }: IProps) => {
         <StyledPageLink onClick={aboutClickHandler}>About</StyledPageLink>
       )}
       {curPage === "skills" ? (
-        <UnderLinedPageLink>Work</UnderLinedPageLink>
+        <UnderLinedPageLink>Skills</UnderLinedPageLink>
       ) : (
         <StyledPageLink onClick={skillsClickHandler}>Skills</StyledPageLink>
       )}
