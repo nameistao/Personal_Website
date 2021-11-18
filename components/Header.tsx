@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StyledHeader = styled.header`
   width: 100vw;
   height: 15vh;
-  background: #264653;
+  background: #ffffff;
   display: flex;
   justify-content: center;
 `;
@@ -19,7 +19,6 @@ const StyledPageLink = styled.div`
   justify-content: center;
   flex-direction: column;
   display: flex;
-  color: white;
   font-size: 1.5rem;
   :hover {
     cursor: pointer;
@@ -36,7 +35,6 @@ const UnderLinedPageLink = styled.div`
   justify-content: center;
   flex-direction: column;
   display: flex;
-  color: white;
   font-size: 1.5rem;
   text-decoration: underline;
   :hover {

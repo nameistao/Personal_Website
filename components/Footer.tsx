@@ -5,15 +5,15 @@ import Email from "icons/Email";
 
 const StyledFooter = styled.footer`
   width: 100vw;
-  height: 15vh;
-  background: #264653;
+  height: 20vh;
+  background: #ffffff;
   display: flex;
   justify-content: center;
 `;
 
 const StyledPageLink = styled.div`
-  height: 50%;
-  width: 10vw;
+  height: 20vh;
+  width: 20vh;
   margin-top: auto;
   margin-bottom: auto;
   text-align: center;
@@ -40,7 +40,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <LinkedIn />
+          <LinkedIn color="#black" />
         </StyledAnchor>
       </StyledPageLink>
       <StyledPageLink>
@@ -49,7 +49,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <GitHub />
+          <GitHub color="black" />
         </StyledAnchor>
       </StyledPageLink>
       <StyledPageLink>
@@ -58,7 +58,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <Email />
+          <Email color="black" />
         </StyledAnchor>
       </StyledPageLink>
     </StyledFooter>

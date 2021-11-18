@@ -3,8 +3,8 @@ import About from "components/mainPages/About";
 
 const StyledMain = styled.main`
   width: 100vw;
-  height: 70vh;
-  background: #264653;
+  height: 65vh;
+  background: #ffffff;
 `;
 
 interface IProps {
