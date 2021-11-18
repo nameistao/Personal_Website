@@ -11,7 +11,7 @@ const About = () => {
   return (
     <StyledAbout>
       <p>
-        my name is tao luo, and i'm a software enginner at{" "}
+        {"my name is tao luo, and i'm a software enginner at "}
         <strong>
           <a
             href="https://fabric.inc/"
