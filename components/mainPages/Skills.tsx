@@ -10,13 +10,13 @@ const StyledAbout = styled.div`
 const Skills = () => {
   return (
     <StyledAbout>
-      <h3>languages</h3>
+      <strong>languages</strong>
       <p>go, typescript, javascript, java, python, ruby</p>
-      <h3>technologies</h3>
+      <strong>technologies</strong>
       <p>graphql, docker, terraform, aws, datadog</p>
-      <h3>front end</h3>
+      <strong>front end</strong>
       <p>react, redux, next, css/sass, html</p>
-      <h3>databases</h3>
+      <strong>databases</strong>
       <p>mongodb, redis, mysql, dynamodb</p>
     </StyledAbout>
   );

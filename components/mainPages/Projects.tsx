@@ -24,6 +24,13 @@ const Projects = () => {
       >
         <p>pomodororo</p>
       </a>
+      <a
+        href="https://github.com/nameistao/Chess_Puzzles"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p>chess puzzles</p>
+      </a>
     </StyledAbout>
   );
 };

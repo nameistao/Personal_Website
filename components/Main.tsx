@@ -9,6 +9,7 @@ const StyledMain = styled.main`
   background: #ffffff;
   display: flex;
   flex-direction: column;
+  font-size: 16px;
 `;
 
 interface IProps {
