@@ -11,6 +11,13 @@ const Projects = () => {
   return (
     <StyledAbout>
       <a
+        href="https://github.com/nameistao/Algo_Patterns"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p>algo patterns</p>
+      </a>
+      <a
         href="https://restaurant-recommender-v3.vercel.app/"
         rel="noopener noreferrer"
         target="_blank"
