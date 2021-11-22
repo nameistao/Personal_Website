@@ -18,7 +18,7 @@ const Projects = () => {
         <p>algo patterns</p>
       </a>
       <a
-        href="https://restaurant-recommender-v3.vercel.app/"
+        href="https://www.restaurantrec.xyz/"
         rel="noopener noreferrer"
         target="_blank"
       >
