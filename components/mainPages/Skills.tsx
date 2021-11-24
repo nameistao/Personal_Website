@@ -17,7 +17,7 @@ const Skills = () => {
       <strong>front end</strong>
       <p>react, redux, next, css/sass, html</p>
       <strong>databases</strong>
-      <p>mongodb, redis, mysql, dynamodb</p>
+      <p>mongodb, redis, mysql, dynamodb, etcd</p>
     </StyledAbout>
   );
 };
