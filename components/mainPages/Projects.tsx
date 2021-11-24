@@ -32,7 +32,7 @@ const Projects = () => {
         <p>pomodororo</p>
       </a>
       <a
-        href="https://github.com/nameistao/Chess_Puzzles"
+        href="https://chesstutor.pythonanywhere.com/"
         rel="noopener noreferrer"
         target="_blank"
       >
