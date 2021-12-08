@@ -11,13 +11,13 @@ const Skills = () => {
   return (
     <StyledAbout>
       <strong>languages</strong>
-      <p>go, typescript, javascript, java, python, ruby</p>
+      <p>go, typescript, javascript, java, python</p>
+      <strong>databases</strong>
+      <p>mongodb, redis, mysql, dynamodb, etcd</p>
       <strong>technologies</strong>
       <p>graphql, docker, terraform, aws, datadog</p>
       <strong>front end</strong>
       <p>react, redux, next, css/sass, html</p>
-      <strong>databases</strong>
-      <p>mongodb, redis, mysql, dynamodb, etcd</p>
     </StyledAbout>
   );
 };
