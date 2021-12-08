@@ -2,7 +2,7 @@
 
 Personal Website
 
-My personal website build using React and Next.js
+My personal website built using React and Next.js
 
 ## Project Context
 
