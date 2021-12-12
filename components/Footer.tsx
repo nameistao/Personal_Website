@@ -12,8 +12,8 @@ const StyledFooter = styled.footer`
 `;
 
 const StyledPageLink = styled.div`
-  height: 20vh;
-  width: 20vh;
+  height: auto;
+  width: 7.5vw;
   margin-top: auto;
   margin-bottom: auto;
   text-align: center;

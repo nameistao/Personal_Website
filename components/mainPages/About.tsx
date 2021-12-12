@@ -23,7 +23,19 @@ const About = () => {
         </strong>
         .
       </p>
-      <p>previously, i studied computer science and business at usc.</p>
+      <p>
+        previously, i studied computer science and business at{" "}
+        <strong>
+          <a
+            href="https://www.usc.edu/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            usc
+          </a>
+        </strong>
+        .
+      </p>
     </StyledAbout>
   );
 };
