@@ -15,7 +15,7 @@ const Skills = () => {
       <strong>databases</strong>
       <p>mongodb, redis, mysql, dynamodb</p>
       <strong>technologies</strong>
-      <p>graphql, docker, elasticsearch, terraform, aws, datadog</p>
+      <p>graphql, apollo, docker, elasticsearch, terraform, aws, datadog</p>
       <strong>front end</strong>
       <p>react, redux, next, css/sass, html, jest, enzyme, cypress</p>
     </StyledAbout>
