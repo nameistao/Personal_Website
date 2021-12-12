@@ -11,11 +11,11 @@ const Projects = () => {
   return (
     <StyledAbout>
       <a
-        href="https://github.com/nameistao/Algo_Patterns"
+        href="https://www.pomokanban.com/"
         rel="noopener noreferrer"
         target="_blank"
       >
-        <p>algo patterns</p>
+        <p>pomokanban</p>
       </a>
       <a
         href="https://www.restaurantrec.xyz/"
@@ -24,13 +24,7 @@ const Projects = () => {
       >
         <p>restaurant recommender</p>
       </a>
-      <a
-        href="http://www.pomodororo.com/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <p>pomodororo</p>
-      </a>
+
       <a
         href="https://chesstutor.pythonanywhere.com/"
         rel="noopener noreferrer"
