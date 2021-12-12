@@ -12,8 +12,8 @@ const Skills = () => {
     <StyledAbout>
       <strong>languages</strong>
       <p>typescript, javascript, go, java, python</p>
-      <strong>databases & cloud</strong>
-      <p>mongodb, redis, mysql, dynamodb, aws</p>
+      <strong>databases</strong>
+      <p>mongodb, redis, mysql, dynamodb</p>
       <strong>technologies</strong>
       <p>graphql, docker, elasticsearch, terraform, aws, datadog</p>
       <strong>front end</strong>
