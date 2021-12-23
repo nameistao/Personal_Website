@@ -17,7 +17,9 @@ const Skills = () => {
       <strong>technologies</strong>
       <p>graphql, apollo, docker, elasticsearch, terraform, aws, datadog</p>
       <strong>front end</strong>
-      <p>react, redux, next, css/sass, html, jest, enzyme, cypress</p>
+      <p>
+        react, redux, next, css/sass, html, jest, react testing library, cypress
+      </p>
     </StyledAbout>
   );
 };
