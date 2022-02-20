@@ -11,15 +11,15 @@ const Skills = () => {
   return (
     <StyledAbout>
       <strong>languages</strong>
-      <p>typescript, javascript, go, java, python</p>
+      <p>javascript, typescript, go, java, python</p>
+      <strong>front end</strong>
+      <p>react, redux, next, svelte, web components, wasm, css/sass, html</p>
       <strong>databases</strong>
       <p>mongodb, redis, mysql, dynamodb</p>
       <strong>technologies</strong>
       <p>graphql, apollo, docker, elasticsearch, terraform, aws, datadog</p>
-      <strong>front end</strong>
-      <p>
-        react, redux, next, css/sass, html, jest, react testing library, cypress
-      </p>
+      <strong>testing</strong>
+      <p>jest, testing library, cypress</p>
     </StyledAbout>
   );
 };
