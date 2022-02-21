@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: Inter UI, Helvetica, sans-serif;
+  text-align: center;
 }
 
 nav {
@@ -44,6 +45,7 @@ a:hover {
 }
 
 a:visited {
+  text-decoration: none;
   color: inherit;
 }
 
