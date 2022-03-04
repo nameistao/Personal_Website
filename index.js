@@ -56,7 +56,7 @@ skillsButton.addEventListener("click", () => {
   main.append(frontEndHeader);
   const frontEnd = document.createElement("p");
   frontEnd.append(
-    "react, redux, next, svelte, web components, wasm, css/sass, html"
+    "react, redux, next, svelte, web components, wasm, css/sass, html, storybook"
   );
   main.append(frontEnd);
 
