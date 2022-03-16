@@ -55,7 +55,7 @@ skillsButton.addEventListener("click", () => {
   frontEndHeader.innerText = "front end";
   main.append(frontEndHeader);
   const frontEnd = document.createElement("p");
-  frontEnd.append("react, ember, next, css/sass, html, storybook");
+  frontEnd.append("react, ember, next, css/sass, html, webpack, storybook");
   main.append(frontEnd);
 
   const databasesHeader = document.createElement("strong");
