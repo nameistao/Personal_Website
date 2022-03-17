@@ -55,9 +55,7 @@ skillsButton.addEventListener("click", () => {
   frontEndHeader.innerText = "front end";
   main.append(frontEndHeader);
   const frontEnd = document.createElement("p");
-  frontEnd.append(
-    "react, ember, svelte, next, css/sass, html, webpack, storybook"
-  );
+  frontEnd.append("react, ember, svelte, next, css/sass, html");
   main.append(frontEnd);
 
   const databasesHeader = document.createElement("strong");
@@ -77,10 +75,10 @@ skillsButton.addEventListener("click", () => {
   main.append(technologies);
 
   const testingHeader = document.createElement("strong");
-  testingHeader.innerText = "testing";
+  testingHeader.innerText = "testing & building";
   main.append(testingHeader);
   const testing = document.createElement("p");
-  testing.append("jest, testing library, cypress");
+  testing.append("jest, testing library, cypress, storybook, webpack, vite");
   main.append(testing);
 });
 
