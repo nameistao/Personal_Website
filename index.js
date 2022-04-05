@@ -9,18 +9,7 @@ aboutButton.addEventListener("click", () => {
   main.textContent = "";
 
   const work = document.createElement("p");
-  const workBold = document.createElement("strong");
-  const workLink = document.createElement("a");
-  workLink.href = "https://fabric.inc/";
-  workLink.rel = "noopener noreferrer";
-  workLink.target = "_blank";
-  workLink.append("fabric");
-  workBold.append(workLink);
-  work.append(
-    "my name is tao luo, and i'm a software engineer at ",
-    workBold,
-    "."
-  );
+  work.append("my name is tao luo and i'm a software engineer.");
 
   main.append(work);
 
@@ -33,7 +22,7 @@ aboutButton.addEventListener("click", () => {
   educationLink.append("usc");
   educationBold.append(educationLink);
   education.append(
-    "previously, i studied computer science and business at ",
+    "i studied computer science and business at ",
     educationBold,
     "."
   );
