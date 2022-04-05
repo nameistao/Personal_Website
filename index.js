@@ -69,16 +69,16 @@ skillsButton.addEventListener("click", () => {
   technologiesHeader.innerText = "technologies";
   main.append(technologiesHeader);
   const technologies = document.createElement("p");
-  technologies.append(
-    "graphql, apollo, docker, elasticsearch, terraform, aws, datadog"
-  );
+  technologies.append("graphql, apollo, docker, elasticsearch, aws, datadog");
   main.append(technologies);
 
   const testingHeader = document.createElement("strong");
-  testingHeader.innerText = "testing & building";
+  testingHeader.innerText = "test, build, devops";
   main.append(testingHeader);
   const testing = document.createElement("p");
-  testing.append("jest, testing library, cypress, storybook, webpack, vite");
+  testing.append(
+    "jest, testing library, cypress, storybook, webpack, gitlab ci, terraform"
+  );
   main.append(testing);
 });
 
