@@ -37,7 +37,7 @@ skillsButton.addEventListener("click", () => {
   languageHeader.innerText = "languages";
   main.append(languageHeader);
   const languages = document.createElement("p");
-  languages.append("javascript, typescript, go, java, python");
+  languages.append("javascript, typescript, go, java, python, bash/zsh");
   main.append(languages);
 
   const frontEndHeader = document.createElement("strong");
